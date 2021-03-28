@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.UpdateUserFragment">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView_fragment_update_user"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:elevation="2dp"
+        android:visibility="visible"
+        app:civ_border_color="@color/colorTxt"
+        app:civ_border_width="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName_fragment_update_user_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@mipmap/ic_img_profile" />
+
+    <Button
+        android:id="@+id/button_fragment_update_user_change_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:stateListAnimator="@null"
+        android:text="Изменить фото"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView_fragment_update_user"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView_fragment_update_user"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView_fragment_update_user" />
+
+    <Button
+        android:id="@+id/button_fragment_update_user_remove_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:stateListAnimator="@null"
+        android:text="Удалить"
+        android:textAllCaps="false"
+        android:textColor="@color/colorRed"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView_fragment_update_user"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView_fragment_update_user"
+        app:layout_constraintTop_toBottomOf="@+id/button_fragment_update_user_change_photo" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName_fragment_update_user_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/button_fragment_update_user_updateBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView_fragment_update_user" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress_fragment_update_user_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName_fragment_update_user_name" />
+
+    <Button
+        android:id="@+id/button_fragment_update_user_updateBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/colorTxt"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Обновить"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

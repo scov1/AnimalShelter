@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "698037287357",
+    "project_id": "animalshelter-9aaac",
+    "storage_bucket": "animalshelter-9aaac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698037287357:android:cec7540fd8266f2dde3ad4",
+        "android_client_info": {
+          "package_name": "org.seda.animalshelter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698037287357-91m8vdo8nj0ek09a8f0gjek5n6cr928a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.seda.animalshelter",
+            "certificate_hash": "c79c8129bb70e8dfb3b1e9c2794c9d8355f60b38"
+          }
+        },
+        {
+          "client_id": "698037287357-pn70so2mn2mi2l1l0ukocmf08jas4r6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5tOSpCArsHXsbkuixzr4W77bWd_qgc8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698037287357-pn70so2mn2mi2l1l0ukocmf08jas4r6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

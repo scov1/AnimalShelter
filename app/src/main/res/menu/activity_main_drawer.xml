@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_home_main"
+            android:icon="@drawable/icon_home_category"
+            android:title="Главная" />
+        <item
+            android:id="@+id/nav_my_account_main"
+            android:icon="@drawable/icon_nav_my_account"
+            android:title="Мой аккаунт" />
+        <item
+            android:id="@+id/nav_my_basket_main"
+            android:icon="@drawable/icon_navigate_basket"
+            android:title="Моя корзина" />
+        <item
+            android:id="@+id/nav_my_favorite_main"
+            android:icon="@drawable/icon_nav_favorite_main"
+            android:title="Избранное" />
+<!--        <item-->
+<!--            android:id="@+id/nav_orders_main"-->
+<!--            android:icon="@drawable/icon_nav_order_main"-->
+<!--            android:title="Мои покупки" />-->
+        <item
+            android:id="@+id/nav_logout_main"
+            android:icon="@drawable/icon_nav_logout_main"
+            android:title="Выход" />
+    </group>
+
+    <item android:title="Связь">
+        <menu>
+<!--            <item-->
+<!--                android:id="@+id/nav_about_us_main"-->
+<!--                android:icon="@drawable/icon_nav_about_us_main"-->
+<!--                android:title="О нас" />-->
+            <item
+                android:id="@+id/nav_feedback_main"
+                android:icon="@drawable/icon_nav_write_main"
+                android:title="Написать нам" />
+        </menu>
+    </item>
+</menu>

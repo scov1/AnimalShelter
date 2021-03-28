@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_navigate_pets"
+        android:title="Питомцы"
+        android:icon="@drawable/icon_navigate_pets"
+        />
+    <item
+        android:id="@+id/item_navigate_store"
+        android:title="Купить"
+        android:icon="@drawable/icon_navigate_shop"/>
+    <item
+        android:id="@+id/item_navigate_basket"
+        android:title="Корзина"
+        android:icon="@drawable/icon_navigate_basket"/>
+    <item
+        android:id="@+id/item_navigate_user"
+        android:title="Профиль"
+        android:icon="@drawable/icon_navigate_user"/>
+</menu>

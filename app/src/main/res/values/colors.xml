@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorAccent">#2c3949</color>
+    <color name="colorAboutUs">#AD0A3B77</color>
+    <color name="colorTxt">#e39a2a</color>
+    <color name="colorNavigateMenu">#50504F</color>
+    <color name="colorNavigateMenuIcon">#9E9E9D</color>
+    <color name="colorHint">#BFBFBF</color>
+    <color name="colorSuccess">#F24AA63F</color>
+    <color name="colorCategory">#F2EEEFEE</color>
+    <color name="colorRed">#F2ED0000</color>
+</resources>

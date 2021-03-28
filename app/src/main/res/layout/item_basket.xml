@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="3dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView_item_basket_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/food_icon" />
+
+    <TextView
+        android:id="@+id/textView_item_basket_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Корм Viskas"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/colorNavigateMenu"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView_item_basket_img"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_item_basket_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="1200 KZT"
+        android:textColor="@color/colorNavigateMenu"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_item_basket_name" />
+
+    <TextView
+        android:id="@+id/textView_item_basket_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/my_border_krug"
+        android:drawableRight="@drawable/icon_arrow_drop_down"
+        android:drawablePadding="5dp"
+        android:drawableTint="@color/colorNavigateMenu"
+        android:fontFamily="@font/roboto_medium"
+        android:padding="3dp"
+        android:paddingStart="7dp"
+        android:paddingLeft="5dp"
+        android:text="Кол-во: 1"
+        android:textColor="@color/colorNavigateMenu"
+        app:layout_constraintStart_toEndOf="@+id/imageView_item_basket_img"
+        app:layout_constraintTop_toBottomOf="@+id/textView_item_basket_name" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_item_basket_remove"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#F2F8FAF8"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_item_basket_img">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Удалить товар"
+            android:textSize="16sp"
+            android:textColor="@color/colorNavigateMenu"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:drawablePadding="4dp"
+            android:drawableStart="@drawable/ic_baseline_delete_24"
+            android:drawableLeft="@drawable/ic_baseline_delete_24" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

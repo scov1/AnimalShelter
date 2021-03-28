@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout_main_take_home_pet"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:layout_marginBottom="32dp"
+    android:background="@color/colorAccent">
+
+
+    <TextView
+        android:id="@+id/textView_main_take_home_pet_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:letterSpacing=".1"
+        android:text="Забрать домой"
+        android:textAllCaps="true"
+        android:textColor="@color/colorCategory"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_main_take_home_pet_block"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Вы можете бесконечно кормить, дарить приятные вещи и лечить питомца, но только забрав домой вы сможете по-настоящему помочь ему."
+        android:textColor="@color/colorCategory"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_main_take_home_pet_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_take_home_pet_title" />
+
+    <Button
+        android:id="@+id/button_main_take_home_pet_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorTxt"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:stateListAnimator="@null"
+        android:text="Помочь сейчас"
+        android:textColor="@color/colorCategory"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_main_take_home_pet_homeImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/adopt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
